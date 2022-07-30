@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        /* p {
+            background-color: green;
+            color: white;
+            font-size: 18px;
+
+        } */
+
+    </style>
     <title>Odin Recipes</title>
 </head>
 <body>
@@ -11,9 +21,50 @@
     <ul>
 
         <li><a href="./recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="./recipes/greek-salad.html">Greek-salad</a></li>
+        <li class="odd"><a href="./recipes/greek-salad.html">Greek-salad</a></li>
+        <li id="second"><a href="./recipes/lasagna.html">Third</a></li>
+        <li class="odd third"><a href="./recipes/greek-salad.html">Fourth</a></li>
+        <li id="fourth"><a href="./recipes/lasagna.html">Fifth</a></li>
+        <li class="odd"><a href="./recipes/greek-salad.html">Sixth</a></li>
 
     </ul>
+    <button style="background-color: orange; font-size:18px">Inline CSS</button>
+
+    <div>Style me with the external css method</div>
+    <p>I'm styled with the internal method</p>
+
+    <button class="btn1 font">Test 1</button>
+    <button class="btn2 font">Test 2</button>
+
+    <div>
+        <img class="avatar proportioned" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8268309.jpg"alt="Woman with glasses">
+        <img class="avatar distorted" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8963973.jpg" alt="Man with surprised expression">
+      </div>
+      <!-- Use the classes ABOVE this line -->
+      <div>
+        <img class="original proportioned" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8268309.jpg"alt="Woman with glasses">
+        <img class="original distorted" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8963973.jpg" alt="Man with surprised expression">
+    </div>
     
+    <div>
+        <p>This should be styled</p>
+    </div>
+
+    
+        <p>This should not be styled</p>
+    
+
+    
+        <p>This should not be styled</p>
+    
+
+    <div>
+        <p>This should be styled</p>
+    </div>
+
+    <div>
+        <p>This should be styled</p>
+    </div>
+
 </body>
 </html>

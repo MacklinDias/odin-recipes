@@ -1,0 +1,59 @@
+/* div {
+    background-color: red;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+} */
+
+.odd {
+    background-color: rgb(245, 167, 180);
+    font-family: Verdana, dejavu sans, sans-serif;
+    
+}
+
+.third{ 
+    font-size: 24px;
+}
+
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+#fourth {
+    background-color: rgb(182, 241, 182);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+   background-color: yellow; 
+}
+
+.font{
+    font-size: 28px;
+    font-family: helvetica, Times New Roman, sans-serif;
+}
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
